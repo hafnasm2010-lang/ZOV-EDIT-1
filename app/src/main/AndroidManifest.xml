@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:label="ZOV EDIT"
+        android:allowBackup="false"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.zovedit.app.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+</manifest>
